@@ -12,6 +12,7 @@ The analysis focuses on Type 1 A&E attendances and regional differences in the p
 - SQLite
 - DB Browser for SQLite
 - SQL
+- Microsoft Excel — Regional waiting-time visualisation
 
 ## Dataset
 
@@ -47,19 +48,30 @@ The analysis checks for missing values, zero and negative attendance counts, inv
 | East of England | 157,503 | 58,193 | 36.95% |
 | South East | 212,479 | 77,736 | 36.59% |
 
-**Key observation:** The South West had the highest proportion of Type 1 attendances exceeding four hours, despite having the lowest total Type 1 attendance count among the seven regions.
 
-These findings describe regional waiting-time differences, not their underlying causes.
+### Analysis and Interpretation
+
+The analysis found that **39.00% of Type 1 A&E attendances in England exceeded four hours** in June 2026, representing 569,187 out of 1,459,491 attendances.
+
+The **South West recorded the highest percentage (45.15%)** of Type 1 attendances exceeding four hours, despite having the lowest total Type 1 attendance count among the seven regions, while the **South East recorded the lowest (36.59%)**, a difference of 8.56 percentage points.
+
+Although the Midlands recorded the highest number of attendances exceeding four hours (111,669), the South West had the highest proportion. This highlights why percentage-based comparisons are important when analysing regions with different attendance volumes.
+
+These findings identify regional differences in waiting times but do not establish the reasons behind them. Further analysis would be needed to investigate possible contributing factors.
+
 
 ## Regional Waiting-Time Visualisation
 
 ![NHS England Type 1 A&E regional waiting-time comparison, June 2026](nhs_ae_regional_waiting_times.png)
 
-## SQL Files
 
-- `01_data_exploration.sql` — Initial data exploration
-- `02_data_quality_checks.sql` — Data quality validation
+## Project Files
+
+- `01_data_exploration.sql` — Initial data exploration and dataset structure
+- `02_data_quality_checks.sql` — Missing values, invalid records and data validation
 - `03_waiting_time_analysis.sql` — National and regional waiting-time analysis
+- `nhs_ae_regional_visualisation.xlsx` — Editable Excel workbook containing the regional comparison chart
+- `nhs_ae_regional_waiting_times.png` — Regional waiting-time visualisation
 
 ## Project Status
 
