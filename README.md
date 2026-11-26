@@ -51,6 +51,10 @@ The analysis checks for missing values, zero and negative attendance counts, inv
 
 These findings describe regional waiting-time differences, not their underlying causes.
 
+## Regional Waiting-Time Visualisation
+
+![NHS England Type 1 A&E regional waiting-time comparison, June 2026](nhs_ae_regional_waiting_times.png)
+
 ## SQL Files
 
 - `01_data_exploration.sql` — Initial data exploration
