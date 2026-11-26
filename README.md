@@ -19,6 +19,8 @@ Source: NHS England — A&E Attendances and Emergency Admissions, June 2026.
 
 The dataset contains 193 records, including one national summary row and 192 organisation-level records across seven NHS regions.
 
+[Official NHS England A&E dataset — June 2026](https://www.england.nhs.uk/statistics/statistical-work-areas/ae-waiting-times-and-activity/ae-attendances-and-emergency-admissions-2026-27/)
+
 ## Data Quality Checks
 
 The analysis checks for missing values, zero and negative attendance counts, invalid waiting-time counts, and organisation-code completeness.
