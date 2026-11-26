@@ -45,3 +45,20 @@ These findings describe regional waiting-time differences, not their underlying 
 ## Project Status
 
 Initial SQL exploration, quality checks, and regional waiting-time analysis completed. Further analysis and visualisations are planned.
+
+
+## How to Reproduce the Analysis
+
+1. Download the June 2026 A&E attendance CSV from the official NHS England dataset page.
+2. Open DB Browser for SQLite and create a new database.
+3. Import the CSV using File > Import > Table from CSV file.
+4. Name the imported table `nhs_ae_june_2026`.
+5. Ensure the first CSV row is used as the column headers.
+6. Verify that the imported table contains 193 records.
+7. Run the SQL scripts in the following order:
+   - `01_data_exploration.sql`
+   - `02_data_quality_checks.sql`
+   - `03_waiting_time_analysis.sql`
+
+The analysis excludes the national `TOTAL` summary row from calculations to avoid double-counting.
+
