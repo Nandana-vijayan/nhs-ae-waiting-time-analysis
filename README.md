@@ -34,6 +34,21 @@ The analysis checks for missing values, zero and negative attendance counts, inv
 - Lowest regional percentage: **South East (36.59%)**
 - Difference between highest and lowest: **8.56 percentage points**
 
+
+### Regional Waiting-Time Comparison
+
+| NHS Region | Total Type 1 Attendances | Over 4 Hours | Percentage Over 4 Hours |
+|---|---:|---:|---:|
+| South West | 132,047 | 59,620 | 45.15% |
+| North West | 207,819 | 86,577 | 41.66% |
+| Midlands | 277,940 | 111,669 | 40.18% |
+| London | 238,284 | 88,697 | 37.22% |
+| North East and Yorkshire | 233,419 | 86,695 | 37.14% |
+| East of England | 157,503 | 58,193 | 36.95% |
+| South East | 212,479 | 77,736 | 36.59% |
+
+**Key observation:** The South West had the highest proportion of Type 1 attendances exceeding four hours, despite having the lowest total Type 1 attendance count among the seven regions.
+
 These findings describe regional waiting-time differences, not their underlying causes.
 
 ## SQL Files
